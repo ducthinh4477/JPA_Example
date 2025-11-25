@@ -195,12 +195,12 @@
 		            
 		            <td>
 		                <a class="action-btn edit-btn"
-		                   href="${pageContext.request.contextPath}/admin/category/edit?id=${c.cateId}">
+		                   href="${pageContext.request.contextPath}/admin/categories/edit?id=${c.cateId}">
 		                    Sửa
 		                </a>
 		
 		                <a class="action-btn delete-btn"
-		                   href="${pageContext.request.contextPath}/admin/category/delete?id=${c.cateId}">
+		                   href="${pageContext.request.contextPath}/admin/categories/delete?id=${c.cateId}">
 		                    Xóa
 		                </a>
 		            </td>
